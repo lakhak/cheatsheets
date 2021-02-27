@@ -33,6 +33,8 @@ Useful commands for vi
 ## navigation
 - `e` move cursor to end of word
 - `b` move cursor to beginning of word
+- `$` move cursor to end of line
+- `^` move cursor to beginning of line
 - `gg` start of file
 - `G` end of file
 - `{n}gg` go to line n
@@ -59,6 +61,7 @@ Useful commands for vi
 - `r` in NERDTree window to refresh
 - `map <C-n> :NERDTreeToggle<CR>` add to .vimrc to map shortcut to toggle NERDTree
 - `:let g:NERDTreeWinSize=40` adjust window size
+- `m` open NERDTree menu for options on adding, deleting etc.
 
 ## other
 - `:!{command}` execute external command
